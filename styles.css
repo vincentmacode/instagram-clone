@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding: 10px 10px;
+    gap: 7px;
+    margin: 0;
+}
+
+.user-avatar {
+    width: 32px;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+
+.post .img {
+    width: 100%;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.location {
+    font-family: "Source Sans 3", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
