@@ -1,1 +1,1 @@
-## Creating a instagram clone
+## Creating an Instagram clone
