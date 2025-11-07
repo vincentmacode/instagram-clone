@@ -1,6 +1,16 @@
 html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* stack header (logo) on top, content below */
+    align-items: center;    /* center children horizontally */
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
 .header {
@@ -10,26 +20,29 @@ html, body {
     margin: 0;
 }
 
+.img{
+    width: 375px;
+}
+
 .user-avatar {
     width: 32px;
 }
 
-.post .header {
+.container-logo {
     display: flex;
+    align-items: center;
     justify-content: start;
-    flex-direction: column;
-    margin: 0;
-
+    width: 375px;
+    height: 67px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c6c6c6;
 }
-
-
-.post .img {
-    width: 100%;
-}
-
 .logo {
-    width: 127px;
+    width: 137px;
+    height: 60px;
+    padding-left: 15px;
 }
+
 
 .avatar {
     width: 34px;
@@ -49,4 +62,27 @@ html, body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 13px;
+}
+
+.control-bar img{
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    margin-top: 14px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.container {
+    padding-left: 8px;
+}
+
+.container p {
+    margin: 10px 0px;
+}
+
+.username {
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+    margin-top: 0; 
 }
