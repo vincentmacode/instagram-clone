@@ -4,34 +4,38 @@ html, body {
     padding: 0;
 }
 
+/* Body styles */
+
 body {
     display: flex;
-    flex-direction: column; /* stack header (logo) on top, content below */
-    align-items: center;    /* center children horizontally */
+    flex-direction: column;  
+    align-items: center;    
     min-height: 100vh;
     box-sizing: border-box;
-    padding-top: 10px;
 }
 
 .header {
     display: flex;
-    padding: 10px 10px;
+    padding: 10px 10px 13px;
     gap: 7px;
     margin: 0;
 }
 
 .img{
-    width: 375px;
+    width: 375px; /* Set image width to 375px */
 }
 
 .user-avatar {
     width: 32px;
+    border-radius: 50%; /* Make user icon circular */
 }
+
+/* logo container styles */
 
 .container-logo {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     width: 375px;
     height: 67px;
     padding-bottom: 10px;
@@ -85,4 +89,9 @@ body {
     font-weight: bold;
     font-family: "Source Sans 3", sans-serif;
     margin-top: 0; 
+}
+
+.gap {
+    width: 375px;
+    border-top: 25px solid #ededed;
 }
