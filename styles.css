@@ -12,6 +12,7 @@ body {
     align-items: center;    
     min-height: 100vh;
     box-sizing: border-box;
+    row-gap: 13px;
 }
 
 .header {
@@ -47,6 +48,7 @@ body {
     padding-left: 15px;
 }
 
+/* main body content  */
 
 .avatar {
     width: 34px;
@@ -93,5 +95,5 @@ body {
 
 .gap {
     width: 375px;
-    border-top: 25px solid #ededed;
+    border-bottom: 1px solid #ededed;
 }
